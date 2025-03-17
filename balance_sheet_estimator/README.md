@@ -1,19 +1,19 @@
-# Balance Sheet Estimator
+## Expected Outcomes of Mock Tests
 
-This is a Streamlit application designed to dynamically calculate and display financial metrics, 
-portfolio allocations, and individual balance sheets based on user inputs.
+When running the mock tests, the following outcomes are expected:
 
-## Features
+1. **Financial Metric Calculations:**
+   - Total Financial Wealth: Expected to be **$250,000**.
+   - Estimated Human Capital: Expected to be **$1,680,000**.
+   - Estimated Liabilities: Expected to be approximately **$1,293,600**.
+   - Estimated Net Worth: Calculated based on total wealth minus estimated liabilities.
 
-- Interactive forms for user inputs.
-- Real-time calculation of financial metrics.
-- Interactive visualizations using Plotly.
+2. **User Input Handling:**
+   - After simulating user input collection, the session state is expected to contain `user_inputs`, confirming proper data retention.
 
-## Installation
+3. **Visualization Logic Execution:**
+   - The visualization logic should execute successfully without rendering errors, confirming the robustness of the plotting functionality.
 
-To run this application, please install the necessary requirements:
-
-## Run Application
-
-Use the following command to start the application:
+### Execution for Confirmation
+To confirm these functionalities and ensure complete operability, please run the `mock_test_execution.py` file within the `tests` directory. Ensure your environment accommodates the necessary Streamlit contextual imports for accurate simulations.
 
